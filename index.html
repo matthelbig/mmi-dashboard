@@ -56,7 +56,7 @@
                     <p class="dashboard-metric">
                         <h2><i class="entypo-chart-area"></i></h2>
                         <div class="dashboard-metric">
-                            <strong class="odometer">239,384,440</strong><br><small>Emails Sent</small>
+                            <strong id="odometer" class="odometer">123</strong><br><small>Emails Sent</small>
                         </div>
                     </p>
                 </div>
@@ -75,8 +75,9 @@
         <script src="js/main.js"></script>
 
         <script type="text/javascript">
-        element.innerHTML = 123 // Native, or...
-        $('.odometer').html(123) // with jQuery
+        setTimeout(function(){
+    odometer.innerHTML = 239,384,440;
+});   
         </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
