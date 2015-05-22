@@ -138,25 +138,27 @@ textarea {
     color: #fff;
     text-align: center;
     position: relative;
-    padding-bottom: 40px;
 }
 .dashboard-piece-mmibg {
     background-color: #4B4E4E;
 }
-.dashboard-piece-orangebg {
-    background-color: #F76C27;
+.dashboard-piece-1 {
+    background-color: #F893C6;
 }
-.dashboard-piece-yellowbg {
-    background-color: #E7E737;
+.dashboard-piece-2 {
+    background-color: #F263AC;
 }
-.dashboard-piece-bluebg {
-    background-color: #51D5E4;
+.dashboard-piece-3 {
+    background-color: #ED3C96;
 }
-.dashboard-piece-purplebg {
-    background-color: #7E45D3;
+.dashboard-piece-4 {
+    background-color: #E71680;
 }
-.dashboard-piece-graybg {
-    background-color: #798388;
+.dashboard-piece-5 {
+    background-color: #DB006F;
+}
+.dashboard-piece-6 {
+    background-color: #AF0059;
 }
 .dashboard-piece-logo h1 {
     line-height: 100px;
